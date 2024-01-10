@@ -1,0 +1,143 @@
+h1,h2,h3,dt{
+    color: #E0D200;
+    font-family: "Press Start 2P",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    position: relative;
+    top: 0%;
+    left: 20%
+}
+
+h2{
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    left: 20%
+}
+
+h3{
+    font-size: 20px;
+    border-style: groove;
+    padding: 6px;
+    border-color: #FFFFFF;
+    top: 0%;
+    background-color: #0004E0;
+}
+
+dt{
+    font-size: 10px;
+}
+
+body{
+    background: linear-gradient(to top, #4F3061, #0004E0);
+    background-attachment: fixed;
+}
+
+p,dd,ul,label,ol{
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.bottone{
+    background-color: #E0D200;
+    border-radius: 20px; padding: 6px 6px;
+    font-size: 13px;
+    font-family: "Press Start 2P",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: #E0D200; 
+    border-radius: 20px; padding: 6px 6px;
+    font-size: 13px;
+    font-family: "Press Start 2P",'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+     sans-serif;
+     border-style: dashed;
+}
+
+#fototessera{
+    float: left;
+    margin-right: 10px;
+}
+
+button:hover{
+    color: #FFFFFF;
+    margin-left: 15px;
+    border-style: dashed;
+}
+
+.bottone:hover{
+    color: #FFFFFF;
+    margin-left: 15px;
+    border-style: dashed;
+}
+
+.bottone:active{
+    border-style: inset;
+}
+
+button:active{
+    border-style: inset;
+}
+
+.ombra:hover{
+    border-style: dashed;
+    border-color: #E0D200;
+    margin-left: 10px;
+}
+input:hover{
+    margin-left: 10px;
+}
+
+.fa-linkedin:hover{
+   color: #E0D200;
+}
+
+.fa-facebook:hover{
+    color: #E0D200;
+ }
+
+ .fa-instagram:hover{
+    color: #E0D200;
+ }
+
+ .container{
+    display: inline-block;
+    text-align: center;
+ }
+
+ h1{
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 2s steps(16) typing,
+    .4s step-end infinite alternate cursor ;
+ }
+
+ h2,.text2{
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 2.5s 2s steps(22) typing,
+               .4s step-end infinite alternate cursor ,
+                2s nascondi;
+ }
+      
+ /*intermittenza del cursore*/
+ @keyframes cursor{
+    50%{border-color: transparent;}
+ }
+
+ @keyframes typing{
+    from {width: 0;}
+ }
+
+ @keyframes nascondi{
+    from{opacity: 0;}
+    to{opacity: 0;}
+ }z
